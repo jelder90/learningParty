@@ -7,6 +7,7 @@ import java.util.concurrent.SynchronousQueue;
  * Time: 8:25 PM
  * To change this template use File | Settings | File Templates.
  */
+
 public class QueueTest {
 
     public static void main(String[] args) {
