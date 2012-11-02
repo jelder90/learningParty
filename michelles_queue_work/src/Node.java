@@ -7,10 +7,6 @@
  */
 
 
-// Basic node stored in a linked list
-// Note that this class is not accessible outside
-// of package weiss.nonstandard
-
 class Node {
 
     public int val;
