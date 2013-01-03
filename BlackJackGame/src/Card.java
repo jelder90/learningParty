@@ -12,8 +12,8 @@ public class Card {
 
     /*Card values in Blackjack are 1-11.
     Ignoring card symbol, colour, and royalty
-    for now.  (Royal values are 11s.)
-     */
+    for now.
+    */
 
     public Card () {
         Random generator = new Random();
@@ -21,15 +21,11 @@ public class Card {
         faceValue = shuffledFaceValue;
     }
 
-    public int faceValue;
+    public Integer faceValue;
 
 
-    public int getFaceValue () {
+    public Integer getCardValue () {
         return faceValue;
     }
 
-    // will I need to set the value of the card? cards have static values...
-    public void setFaceValue (int newValue) {
-        faceValue = newValue;
-    }
 }
